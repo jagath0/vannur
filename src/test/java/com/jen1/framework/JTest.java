@@ -8,5 +8,6 @@ public class JTest {
 	public void test1() {
 		System.out.println("j1 executing");
 		System.out.println("modified");
+		System.out.println("modified2");
 }
 }

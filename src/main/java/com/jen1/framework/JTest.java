@@ -2,7 +2,7 @@ package com.jen1.framework;
 
 import org.testng.annotations.Test;
 
-public class J {
+public class JTest {
 
 	@Test(groups = "sanity")
 	public void test1() {

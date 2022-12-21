@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="583" started-at="2022-12-21T10:02:14 IST" finished-at="2022-12-21T10:02:14 IST">
+  <suite name="Default suite" duration-ms="141" started-at="2022-12-21T10:15:24 IST" finished-at="2022-12-21T10:15:25 IST">
     <groups>
       <group name="sanity">
-        <method signature="J.test1()[pri:0, instance:com.jen1.framework.J@5bb21b69]" name="test1" class="com.jen1.framework.J"/>
+        <method signature="J.test1()[pri:0, instance:com.jen1.framework.J@42d8062c]" name="test1" class="com.jen1.framework.J"/>
+        <method signature="JTest.test1()[pri:0, instance:com.jen1.framework.JTest@6b9651f3]" name="test1" class="com.jen1.framework.JTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="583" started-at="2022-12-21T10:02:14 IST" finished-at="2022-12-21T10:02:14 IST">
+    <test name="Default test" duration-ms="141" started-at="2022-12-21T10:15:24 IST" finished-at="2022-12-21T10:15:25 IST">
+      <class name="com.jen1.framework.JTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.jen1.framework.JTest@6b9651f3]" name="test1" duration-ms="15" started-at="2022-12-21T10:15:25 IST" finished-at="2022-12-21T10:15:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.jen1.framework.JTest -->
       <class name="com.jen1.framework.J">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.jen1.framework.J@5bb21b69]" name="test1" duration-ms="31" started-at="2022-12-21T10:02:14 IST" finished-at="2022-12-21T10:02:14 IST">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.jen1.framework.J@42d8062c]" name="test1" duration-ms="16" started-at="2022-12-21T10:15:25 IST" finished-at="2022-12-21T10:15:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
       </class> <!-- com.jen1.framework.J -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

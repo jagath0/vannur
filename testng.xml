@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.jen1.framework.J"/>
+      <class name="com.jen1.framework.JTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
